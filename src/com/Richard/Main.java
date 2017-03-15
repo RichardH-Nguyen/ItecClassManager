@@ -15,6 +15,7 @@ public class Main {
         ArrayList<ITECCourse> courses = new ArrayList<ITECCourse>();
         courses.add(concepts);
 
+        //for each ITECCourse object in courses use the spotsOpen method to determine the remaining open spots.
         for (ITECCourse x : courses) {
             x.spotsOpen();
         }
